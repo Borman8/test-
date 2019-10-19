@@ -3,8 +3,8 @@ side_one = gets.chomp.to_i
 puts 'Введите значение стороны 2'
 side_two = gets.chomp.to_i
 puts 'Введите значение стороны 3'
-
 side_three = gets.chomp.to_i
+
 # Проверка треугольника 
 if side_one == side_two && side_one == side_three
  	puts 'Треугольник равносторонний и его стороны равны #{side_one}'
